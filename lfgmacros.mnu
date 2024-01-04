@@ -693,7 +693,7 @@ Menu "TSTv1"
               
                         Option "Apex: Lore pets" "beginchat Apex: Lore pets: Summon your lore pets if you have them."
               
-                        Option "Apex: Battle Maiden fight" "beginchat Apex: Battle Maiden fight: Blue patches will fall from the sky, they do large amounts of untyped damage, avoid or you will die."
+                        Option "Apex: Battle Maiden fight" "beginchat Apex: Battle Maiden fight: Blue patches will fall from the sky, they do large amounts of untyped damage, avoid or you will die. Once, Battle Maiden retreats, focus on the humans, ignore the swords."
               
                         Option "Tin Mage: Defeat Director 11" "beginchat Tin Mage: Defeat Director 11: Keep Director 11 taunted or immobilized. They like to run."
               

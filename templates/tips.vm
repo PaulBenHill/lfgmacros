@@ -1,6 +1,6 @@
            Menu "{{ type }}"
            {
               {% for tip in tips %}
-                        Option "{{tip.name}}" "beginchat {{tip.content}}"
+                        Option "{{tip.name}}" "beginchat {{tip.name}}: {{tip.content}}"
               {% endfor %}
            }

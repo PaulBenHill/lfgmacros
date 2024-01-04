@@ -22,9 +22,9 @@ Menu "TSTv1"
                                    Menu "Badge"
            {
               
-                        Option "Cadaver Counter Badge" "beginchat Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
+                        Option "Cadaver Counter Badge" "beginchat Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
               
-                        Option "The Cleanser Badge" "beginchat Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
+                        Option "The Cleanser Badge" "beginchat The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
               
            }
 
@@ -47,7 +47,17 @@ Menu "TSTv1"
                                    Menu "General"
            {
               
-                        Option "Ruin Mages" "beginchat Ruin mages cast earthquake. Take them out first."
+                        Option "Ruin Mages" "beginchat Ruin Mages: Ruin mages cast earthquake and shields. Take them out first."
+              
+                        Option "City Hall Ambush" "beginchat City Hall Ambush: Do not step onto the city hall entrance stairs or touch the door till we are ready. Or you will trigger the ambush early."
+              
+                        Option "Doppelgangers" "beginchat Doppelgangers: These are boss level copies of our team. Including all the buffs and debuffs."
+              
+           }
+           Menu "Speed"
+           {
+              
+                        Option "Mission: Save Atlas Park!" "beginchat Mission: Save Atlas Park!: We just need to recuse the hostages, but wait before approaching the city hall steps."
               
            }
 
@@ -70,7 +80,7 @@ Menu "TSTv1"
                                    Menu "General"
            {
               
-                        Option "Ruin Mages" "beginchat Ruin mages cast earthquake. Take them out first."
+                        Option "Ruin Mages" "beginchat Ruin Mages: Ruin mages cast earthquake and shields. Take them out first."
               
            }
 
@@ -90,7 +100,19 @@ Menu "TSTv1"
 
                 Menu "Tips"
                 {
-                        
+                                   Menu "Speed"
+           {
+              
+                        Option "Activate Obelisks" "beginchat Activate Obelisks: There are eight obelisks that need to be clicked. Then the hostage door will open."
+              
+           }
+           Menu "Badge"
+           {
+              
+                        Option "Volcanic Badge" "beginchat Volcanic Badge: Defeat 100 Magmite Lords."
+              
+           }
+
                 }
         }
 
@@ -110,9 +132,9 @@ Menu "TSTv1"
                                    Menu "Badge"
            {
               
-                        Option "Sidereal Researcher Badge" "beginchat Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
+                        Option "Sidereal Researcher Badge" "beginchat Sidereal Researcher Badge: Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
               
-                        Option "Brotherly Love Badge" "beginchat You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
+                        Option "Brotherly Love Badge" "beginchat Brotherly Love Badge: You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
               
            }
 
@@ -132,7 +154,13 @@ Menu "TSTv1"
 
                 Menu "Tips"
                 {
-                        
+                                   Menu "General"
+           {
+              
+                        Option "Babbage" "beginchat Babbage: The monster Babbage will appear after outside this mission after completion. Keep an eye out."
+              
+           }
+
                 }
         }
 
@@ -149,7 +177,15 @@ Menu "TSTv1"
 
                 Menu "Tips"
                 {
-                        
+                                   Menu "Speed"
+           {
+              
+                        Option "Find Method to Pierce Barrier" "beginchat Find Method to Pierce Barrier: We need to kidnap the portal tech and lead them to the computer."
+              
+                        Option "Bind Bat'Zul" "beginchat Bind Bat'Zul: Defeat Infernal. Click the five altars. Defeat Bat'Zul, who will spawn in the middle of the map."
+              
+           }
+
                 }
         }
 
@@ -166,7 +202,13 @@ Menu "TSTv1"
 
                 Menu "Tips"
                 {
-                        
+                                   Menu "General"
+           {
+              
+                        Option "Super stunners" "beginchat Super stunners: Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+              
+           }
+
                 }
         }
 
@@ -646,7 +688,43 @@ Menu "TSTv1"
 
                 Menu "Tips"
                 {
-                        
+                                   Menu "General"
+           {
+              
+                        Option "Apex: Lore pets" "beginchat Apex: Lore pets: Summon your lore pets if you have them."
+              
+                        Option "Apex: Battle Maiden fight" "beginchat Apex: Battle Maiden fight: Blue patches will fall from the sky, they do large amounts of untyped damage, avoid or you will die."
+              
+                        Option "Tin Mage: Defeat Director 11" "beginchat Tin Mage: Defeat Director 11: Keep Director 11 taunted or immobilized. They like to run."
+              
+           }
+           Menu "Speed"
+           {
+              
+                        Option "Apex: Rikti Pylons" "beginchat Apex: Rikti Pylons: We only need to defeat the three pylons. Watch out for the hydra heads. They do accurate massive toxic AOE damage."
+              
+                        Option "Tin Mage: Eight War Walkers to Defeat" "beginchat Tin Mage: Eight War Walkers to Defeat: We only need to defeat the eight war walker bosses. Then enter the warehouse near the last two bosses."
+              
+           }
+           Menu "Badge"
+           {
+              
+                        Option "Apex: Drone Protector Badge" "beginchat Apex: Drone Protector Badge: Ensure no drones are defeated in the first mission."
+              
+                        Option "Apex: Burden Bearer Badge" "beginchat Apex: Burden Bearer Badge: Ensure no drones are defeated or activated in the first mission."
+              
+                        Option "Apex: Already Dead Badge" "beginchat Apex: Already Dead Badge: Defeat Battle Maiden in under 15 minutes (Timer only counts when she is on the map)."
+              
+                        Option "Tin Mage: Hacker" "beginchat Tin Mage: Hacker: Click all 8 devices within 30 seconds of entering the warehouse in the first mission."
+              
+                        Option "Tin Mage: Midnight Dodger What Dodges At Midnight Badge" "beginchat Tin Mage: Midnight Dodger What Dodges At Midnight Badge: All teammates must avoid taking any damage from Proximity Bombs set by Director 11 during the first mission. High defense, flight, or just defeatin the AV quick all work."
+              
+                        Option "Tin Mage: Kitty's Got Claws Badge" "beginchat Tin Mage: Kitty's Got Claws Badge: Defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat."
+              
+                        Option "Tin Mage: Army of Neu Badge" "beginchat Tin Mage: Army of Neu Badge: Defeat 40 of Neuron's clones in one attempt."
+              
+           }
+
                 }
         }
 
@@ -665,7 +743,7 @@ Menu "TSTv1"
                                    Menu "Badge"
            {
               
-                        Option "Alarm Raiser Badge" "beginchat Whether by chutzpah or ignorance, you managed to assault the Behavioral Adjustment Facility without ever disabling a single one of their guard towers. "
+                        Option "Alarm Raiser Badge" "beginchat Alarm Raiser Badge: Whether by chutzpah or ignorance, you managed to assault the Behavioral Adjustment Facility without ever disabling a single one of their guard towers. "
               
            }
 

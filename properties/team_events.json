@@ -30,7 +30,22 @@
                 {
                     "type": "General",
                     "name": "Ruin Mages",
-                    "content": "Ruin mages cast earthquake. Take them out first."
+                    "content": "Ruin mages cast earthquake and shields. Take them out first."
+                },
+                {
+                    "type": "General",
+                    "name": "City Hall Ambush",
+                    "content": "Do not step onto the city hall entrance stairs or touch the door till we are ready. Or you will trigger the ambush early."
+                },
+                {
+                    "type": "General",
+                    "name": "Doppelgangers",
+                    "content": "These are boss level copies of our team. Including all the buffs and debuffs."
+                },
+                {
+                    "type": "Speed",
+                    "name": "Mission: Save Atlas Park!",
+                    "content": "We just need to recuse the hostages, but wait before approaching the city hall steps."
                 }
             ]
         },
@@ -45,7 +60,7 @@
                 {
                     "type": "General",
                     "name": "Ruin Mages",
-                    "content": "Ruin mages cast earthquake. Take them out first."
+                    "content": "Ruin mages cast earthquake and shields. Take them out first."
                 }
             ]
         },
@@ -56,7 +71,18 @@
             "merits": 8,
             "team_size": 8,
             "location": "The Hollows",
-            "tips": []
+            "tips": [
+                {
+                    "type": "Speed",
+                    "name": "Activate Obelisks",
+                    "content": "There are eight obelisks that need to be clicked. Then the hostage door will open."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Volcanic Badge",
+                    "content": "Defeat 100 Magmite Lords."
+                }
+            ]
         },
         {
             "type": "TeamEvent",
@@ -85,7 +111,13 @@
             "merits": 58,
             "team_size": 8,
             "location": "Skyway City",
-            "tips": []
+            "tips": [
+                {
+                    "type": "General",
+                    "name": "Babbage",
+                    "content": "The monster Babbage will appear after outside this mission after completion. Keep an eye out."
+                }
+            ]
         },
         {
             "type": "TeamEvent",
@@ -94,7 +126,18 @@
             "merits": 13,
             "team_size": 8,
             "location": "Red side. Cap au Diable",
-            "tips": []
+            "tips": [
+                {
+                    "type": "Speed",
+                    "name": "Find Method to Pierce Barrier",
+                    "content": "We need to kidnap the portal tech and lead them to the computer."
+                },
+                {
+                    "type": "Speed",
+                    "name": "Bind Bat'Zul",
+                    "content": "Defeat Infernal. Click the five altars. Defeat Bat'Zul, who will spawn in the middle of the map."
+                }
+            ]
         },
         {
             "type": "TeamEvent",
@@ -103,7 +146,13 @@
             "merits": 20,
             "team_size": 8,
             "location": "Independence Port",
-            "tips": []
+            "tips": [
+                {
+                    "type": "General",
+                    "name": "Super stunners",
+                    "content": "Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                }
+            ]
         },
         {
             "type": "TeamEvent",
@@ -355,6 +404,67 @@
             "merits": 40,
             "team_size": 8,
             "location": "Rikti War Zone (SG Portal or Vanguard base in (Atlas Park, Founder's Falls, Peregrine Island) or (Cap au Diable, Grandville, St. Martial)",
-            "tips": []
+            "tips": [
+                {
+                    "type": "General",
+                    "name": "Apex: Lore pets",
+                    "content": "Summon your lore pets if you have them."
+                },
+                {
+                    "type": "General",
+                    "name": "Apex: Battle Maiden fight",
+                    "content": "Blue patches will fall from the sky, they do large amounts of untyped damage, avoid or you will die."
+                },
+                {
+                    "type": "General",
+                    "name": "Tin Mage: Defeat Director 11",
+                    "content": "Keep Director 11 taunted or immobilized. They like to run."
+                },
+                {
+                    "type": "Speed",
+                    "name": "Apex: Rikti Pylons",
+                    "content": "We only need to defeat the three pylons. Watch out for the hydra heads. They do accurate massive toxic AOE damage."
+                },
+                {
+                    "type": "Speed",
+                    "name": "Tin Mage: Eight War Walkers to Defeat",
+                    "content": "We only need to defeat the eight war walker bosses. Then enter the warehouse near the last two bosses."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Apex: Drone Protector Badge",
+                    "content": "Ensure no drones are defeated in the first mission."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Apex: Burden Bearer Badge",
+                    "content": "Ensure no drones are defeated or activated in the first mission."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Apex: Already Dead Badge",
+                    "content": "Defeat Battle Maiden in under 15 minutes (Timer only counts when she is on the map)."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Tin Mage: Hacker",
+                    "content": "Click all 8 devices within 30 seconds of entering the warehouse in the first mission."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Tin Mage: Midnight Dodger What Dodges At Midnight Badge",
+                    "content": "All teammates must avoid taking any damage from Proximity Bombs set by Director 11 during the first mission. High defense, flight, or just defeatin the AV quick all work."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Tin Mage: Kitty's Got Claws Badge",
+                    "content": "Defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Tin Mage: Army of Neu Badge",
+                    "content": "Defeat 40 of Neuron's clones in one attempt."
+                }
+            ]
         }
     ]

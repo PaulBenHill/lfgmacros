@@ -1,0 +1,18 @@
+// Task Forces, Strikes Forces, and Trials LFG macros
+//  Author: KaizenSoze
+Menu "TSTv1"
+{
+    Title "Task Forces, Strikes Forces, and Trials LFG"
+    Menu "Task Forces, Strike Forces, Trials" {
+        Menu "Level 1-35" {
+        {{group_one}}
+        }
+        
+        Menu "Level 40-50" {
+        {{group_two}}
+        }
+    }
+    Menu "Incarnate trials, League events" {
+        {{league_events}}
+    }
+}

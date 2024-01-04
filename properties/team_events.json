@@ -1,0 +1,360 @@
+    [
+        {
+            "type": "TeamEvent",
+            "name": "Death from Below (New player trial)",
+            "level_requirement": 1,
+            "merits": 0,
+            "team_size": 8,
+            "location": "Atlas Park/Mercy Island",
+            "tips": [
+                {
+                    "type": "Badge",
+                    "name": "Cadaver Counter Badge",
+                    "content": "Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
+                },
+                {
+                    "type": "Badge",
+                    "name": "The Cleanser Badge",
+                    "content": "Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
+                }
+            ]
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Positron 1 Task Force: Rule of Three",
+            "level_requirement": 8,
+            "merits": 11,
+            "team_size": 8,
+            "location": "Steel Canyon",
+            "tips": [
+                {
+                    "type": "General",
+                    "name": "Ruin Mages",
+                    "content": "Ruin mages cast earthquake. Take them out first."
+                }
+            ]
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Positron 2 Task Force: Dam Hero",
+            "level_requirement": 11,
+            "merits": 15,
+            "team_size": 8,
+            "location": "Steel Canyon",
+            "tips": [
+                {
+                    "type": "General",
+                    "name": "Ruin Mages",
+                    "content": "Ruin mages cast earthquake. Take them out first."
+                }
+            ]
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Karsis: The Cavern of Transcendence",
+            "level_requirement": 12,
+            "merits": 8,
+            "team_size": 8,
+            "location": "The Hollows",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Drowning in Blood Trial",
+            "level_requirement": 15,
+            "merits": 2,
+            "team_size": 8,
+            "location": "Atlas Park/Mercy Island",
+            "tips": [
+                {
+                    "type": "Badge",
+                    "name": "Sidereal Researcher Badge",
+                    "content": "Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
+                },
+                {
+                    "type": "Badge",
+                    "name": "Brotherly Love Badge",
+                    "content": "You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
+                }
+            ]
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Synapse: The Fall of the Clockwork King",
+            "level_requirement": 15,
+            "merits": 58,
+            "team_size": 8,
+            "location": "Skyway City",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Virgil Tarikoss: The Beast Beneath the Mountain Strike Force",
+            "level_requirement": 15,
+            "merits": 13,
+            "team_size": 8,
+            "location": "Red side. Cap au Diable",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Penelope Yin Task Force: Clamor for the people",
+            "level_requirement": 20,
+            "merits": 20,
+            "team_size": 8,
+            "location": "Independence Port",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Silver Mantis: Pirates of the Sky",
+            "level_requirement": 20,
+            "merits": 42,
+            "team_size": 8,
+            "location": "Red side. Sharkhead Isle",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Mortimer Kal: The Fire and the Flames",
+            "level_requirement": 20,
+            "merits": 22,
+            "team_size": 8,
+            "location": "Red side. Sharkhead Isle",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Admiral Sutter: The Sky is Falling",
+            "level_requirement": 20,
+            "merits": 22,
+            "team_size": 8,
+            "location": "Independence Port",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Moonfire: The Keldian War",
+            "level_requirement": 23,
+            "merits": 32,
+            "team_size": 8,
+            "location": "Striga Island",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Jane Hallaway: Terra Volta Respec #1",
+            "level_requirement": 24,
+            "merits": 28,
+            "team_size": 8,
+            "location": "Independence Port",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Sparcetriel: Tree Respec #1",
+            "level_requirement": 24,
+            "merits": 15,
+            "team_size": 8,
+            "location": "Red side. Nerva Archipelago",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Ernesto Hess: The Megamech Cometh",
+            "level_requirement": 25,
+            "merits": 19,
+            "team_size": 8,
+            "location": "Striga Island",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Twilight's Son: Smoke and Mirrors",
+            "level_requirement": 25,
+            "merits": 7,
+            "team_size": 8,
+            "location": "Oroboros",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Katie Hannon: A Tangled Plot",
+            "level_requirement": 30,
+            "merits": 26,
+            "team_size": 8,
+            "location": "Croatoa",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Manticore: Following Countess Crey",
+            "level_requirement": 30,
+            "merits": 32,
+            "team_size": 8,
+            "location": "Brickstown",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "James Harlan: Terra Volta Respec #2",
+            "level_requirement": 34,
+            "merits": 20,
+            "team_size": 8,
+            "location": "Founder's Falls",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Trepsarciel: Tree Respec #2",
+            "level_requirement": 34,
+            "merits": 14,
+            "team_size": 8,
+            "location": "Red side. Nerva Archipelago",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Numina: Soul of the Woodsman",
+            "level_requirement": 35,
+            "merits": 36,
+            "team_size": 8,
+            "location": "Founder's Falls",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Ice Mistral: The Crystal of Serafina",
+            "level_requirement": 35,
+            "merits": 26,
+            "team_size": 8,
+            "location": "Red side. St. Martial",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Dr. Aeon: Chasing Fool's Gold",
+            "level_requirement": 35,
+            "merits": 40,
+            "team_size": 8,
+            "location": "Red side. Port Oaks",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Imperious: Time's Arrow",
+            "level_requirement": 35,
+            "merits": 26,
+            "team_size": 8,
+            "location": "Cimerora (via Ouroboros with badge or Midnighter Club with badge)",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Dr. Quarterfield: Explorers and Exploiters",
+            "level_requirement": 40,
+            "merits": 122,
+            "team_size": 8,
+            "location": "Firebase Zulu (via Tunnel, SG portal, or PI portal)",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Sara Moore: The Legend of Ruladak",
+            "level_requirement": 40,
+            "merits": 63,
+            "team_size": 8,
+            "location": "Cascade Archipelago (via Tunnel or SG Portal)",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Justine Augustine: The Saga of Faathim",
+            "level_requirement": 44,
+            "merits": 42,
+            "team_size": 8,
+            "location": "The Chantry (via Tunnel or SG Portal)",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Faathim the Kind: The Saga of Lanaru",
+            "level_requirement": 44,
+            "merits": 73,
+            "team_size": 8,
+            "location": "The Chantry (via Tunnel or SG Portal)",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Richard Flag: Terra Volta Respec #3",
+            "level_requirement": 44,
+            "merits": 20,
+            "team_size": 8,
+            "location": "Peregrine Island",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Ractespriel: Tree Respec #3",
+            "level_requirement": 44,
+            "merits": 15,
+            "team_size": 8,
+            "location": "Red side. Nerva Archipelago",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Ms._Liberty_Task_Force",
+            "level_requirement": 45,
+            "merits": 37,
+            "team_size": 8,
+            "location": "Independence Port",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Dr. Khan: Return of the Reichsman",
+            "level_requirement": 45,
+            "merits": 20,
+            "team_size": 8,
+            "location": "Founder's Falls",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Barracuda: Thus Spoke the Reichman",
+            "level_requirement": 45,
+            "merits": 20,
+            "team_size": 8,
+            "location": "Red side. Grandville",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Lord Recluse's Strike Force",
+            "level_requirement": 45,
+            "merits": 25,
+            "team_size": 8,
+            "location": "Red side. Grandville",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Mender Silos: Trading Places",
+            "level_requirement": 46,
+            "merits": 14,
+            "team_size": 8,
+            "location": "Oroboros",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
+            "name": "Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive",
+            "level_requirement": 50,
+            "merits": 40,
+            "team_size": 8,
+            "location": "Rikti War Zone (SG Portal or Vanguard base in (Atlas Park, Founder's Falls, Peregrine Island) or (Cap au Diable, Grandville, St. Martial)",
+            "tips": []
+        }
+    ]

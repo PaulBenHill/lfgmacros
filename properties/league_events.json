@@ -1,0 +1,118 @@
+[
+    {
+        "type": "LeagueEvent",
+        "name": "Behavioral Adjustment Facility Trial (BAF)",
+        "requirements": "level 50",
+        "rewards": "Incarnate Salvage, Empyrean Merits, Astral Merits",
+        "league_size": 24,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": [
+            {
+                "type": "Badge",
+                "name": "Alarm Raiser Badge",
+                "content": "Whether by chutzpah or ignorance, you managed to assault the Behavioral Adjustment Facility without ever disabling a single one of their guard towers. "
+            }
+        ]
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Lambda Sector Incarnate Trial",
+        "requirements": "level 50",
+        "rewards": "Incarnate Salvage, Empyrean Merits, Astral Merits",
+        "league_size": 16,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Keyes Island Reactor Trial",
+        "requirements": "level 50",
+        "rewards": "Higher chance to gain one Rare or Very Rare Incarnate Component upon completion, Empyrean Merits, Astral Merits",
+        "league_size": 16,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "The Underground Trial",
+        "requirements": "level 50",
+        "rewards": "Guaranteed Rare or Very Rare Incarnate Component upon completion, Empyrean Merits, Astral Merits",
+        "league_size": 24,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "TPN Campus Trial",
+        "requirements": "level 50",
+        "rewards": "Higher chance to gain one Rare or Very Rare Incarnate Component upon completion, Empyrean Merits, Astral Merits",
+        "league_size": 24,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Minds of Mayhem Trial",
+        "requirements": "level 50",
+        "rewards": "Higher chance to gain one Rare or Very Rare Incarnate Component upon completion if present the whole trial, Empyrean Merits, Astral Merits",
+        "league_size": 16,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Dilemma Diabolique Trial",
+        "requirements": "level 50",
+        "rewards": "Incarnate Salvage, Empyrean Merits, Astral Merits",
+        "league_size": 16,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Magisterium Trial",
+        "requirements": "level 50",
+        "rewards": "Higher chance to gain one Rare or Very Rare Incarnate Component upon completion, Empyrean Merits, Astral Merits",
+        "league_size": 24,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Rikti Mothership Raid (MSR)",
+        "requirements": "level 35+ preferred",
+        "rewards": "Vanguard Merits",
+        "league_size": 48,
+        "location": "Rikti War Zone (SG Portal or Vanguard base in (Atlas Park, Founder's Falls, Peregrine Island) or (Cap au Diable, Grandville, St. Martial)",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Lord Winter's Realm",
+        "requirements": "level 10+ required",
+        "rewards": "8 merits, 20 Candy Canes per run",
+        "league_size": 36,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    },
+    {
+        "type": "LeagueEvent",
+        "name": "Cathedral of Pain Trial",
+        "requirements": "level 40+",
+        "rewards": "Alpha slot salvage, temp powers",
+        "league_size": 24,
+        "location": "Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D",
+        "master": true,
+        "tips": []
+    }
+]

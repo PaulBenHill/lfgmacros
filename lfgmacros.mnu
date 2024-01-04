@@ -717,11 +717,11 @@ Menu "TSTv1"
               
                         Option "Tin Mage: Hacker" "beginchat Tin Mage: Hacker: Click all 8 devices within 30 seconds of entering the warehouse in the first mission."
               
-                        Option "Tin Mage: Midnight Dodger What Dodges At Midnight Badge" "beginchat Tin Mage: Midnight Dodger What Dodges At Midnight Badge: All teammates must avoid taking any damage from Proximity Bombs set by Director 11 during the first mission. High defense, flight, or just defeatin the AV quick all work."
+                        Option "Tin Mage: Midnight Dodger What Dodges At Midnight Badge" "beginchat Tin Mage: Midnight Dodger What Dodges At Midnight Badge: All teammates must avoid taking any damage from Proximity Bombs set by Director 11 during the first mission. High defense, flight, or just defeating the AV quickly work."
               
                         Option "Tin Mage: Kitty's Got Claws Badge" "beginchat Tin Mage: Kitty's Got Claws Badge: Defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat."
               
-                        Option "Tin Mage: Army of Neu Badge" "beginchat Tin Mage: Army of Neu Badge: Defeat 40 of Neuron's clones in one attempt."
+                        Option "Tin Mage: Army of Neu Badge" "beginchat Tin Mage: Army of Neu Badge: Defeat 40 of Neuron's clones in one attempt. Separate the AVs, take Bobcat out first. No AOEs till we get the badge."
               
            }
 

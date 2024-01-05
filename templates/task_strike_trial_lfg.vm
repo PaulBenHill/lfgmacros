@@ -12,9 +12,5 @@
                         Option "Speed" "beginchat /lfg Speed run. {{lfg_string_A}} Speed run, we will skip most mobs. Location: {{content.location}}. {{lfg_string_B}}"
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. {{lfg_string_A}} Speed run, we will skip most mobs. If this is your first WST of the week, up to {{lfg_string_C}}"
                 }
-
-                Menu "Tips"
-                {
-                        {{ tips }}
-                }
+                {%- include "tips.vm" %}
         }

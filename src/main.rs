@@ -9,10 +9,6 @@ use std::vec::Vec;
 use tera::Context;
 use tera::Tera;
 
-const TASK_FORCES: &'static str = "task_forces";
-const STRIKE_FORCES: &'static str = "strike_forces";
-const COOP: &'static str = "coop";
-const TRIALS: &'static str = "trials";
 const PROPERTIES_DIR: &'static str = "properties";
 const TEMPLATES: &'static str = "templates";
 const TEAM_EVENT_FILE_NAME: &'static str = "team_events.json";
@@ -48,12 +44,12 @@ impl GroupEvent {
     fn compare_level_requirement(self, value: u8) -> i8 {
         match self {
             GroupEvent::TeamEvent {
-                name,
+                name: _,
                 level_requirement,
-                merits,
-                team_size,
-                location,
-                tips,
+                merits: _,
+                team_size: _,
+                location: _,
+                tips: _,
             } => {
                 if level_requirement < value {
                     -1
@@ -91,11 +87,9 @@ impl GroupEvent {
 }
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
-#[serde(tag = "type")]
-pub enum Tip {
-    General { name: String, content: String },
-    Speed { name: String, content: String },
-    Badge { name: String, content: String },
+pub struct Tip {
+    name: String,
+    content: String,
 }
 
 fn main() {
@@ -106,7 +100,7 @@ fn main() {
 
     let league_path = Path::new(".")
         .join(PROPERTIES_DIR)
-        .join("league_events.json");
+        .join(LEAGUE_EVENT_FILE_NAME);
     let league_events: Vec<GroupEvent> = read_data_file(league_path);
 
     let (g1, g2): (_, Vec<GroupEvent>) = team_events
@@ -120,9 +114,9 @@ fn main() {
     };
 
     let group_one_menus = generate_menus(&tera, g1, TEAM_EVENT_TEMPLATE);
-    print!("{}", group_one_menus);
+    //print!("{}", group_one_menus);
     let group_two_menus = generate_menus(&tera, g2, TEAM_EVENT_TEMPLATE);
-    print!("{}", group_two_menus);
+    //print!("{}", group_two_menus);
 
     let league_event_menus = generate_menus(&tera, league_events.clone(), LEAGUE_EVENT_TEMPLATE);
 
@@ -131,7 +125,7 @@ fn main() {
     top_level_context.insert("group_two", &group_two_menus);
     top_level_context.insert("league_events", &league_event_menus);
 
-    let result = tera.render("lfgmacros.vm", &top_level_context);
+    let result = tera.render(TOP_LEVEL_MENU_TEMPLATE, &top_level_context);
     match result {
         Ok(top_menu) => write_output(top_menu),
         Err(e) => panic!("Could not render top level template: {:?}", e),
@@ -147,43 +141,26 @@ fn generate_menus(
     for event in group_events {
         let tips = event.get_tips();
 
-        let mut tip_menus = String::new();
+        let mut tip_macros = String::new();
         if !tips.is_empty() {
-            let mut general_tips: Vec<Tip> = Vec::new();
-            let mut speed_tips: Vec<Tip> = Vec::new();
-            let mut badge_tips: Vec<Tip> = Vec::new();
             for tip in tips {
-                match tip {
-                    Tip::General {
-                        name: _,
-                        content: _,
-                    } => general_tips.push(tip.clone()),
-                    Tip::Speed {
-                        name: _,
-                        content: _,
-                    } => speed_tips.push(tip.clone()),
-                    Tip::Badge {
-                        name: _,
-                        content: _,
-                    } => badge_tips.push(tip.clone()),
-                }
-            }
-
-            if !general_tips.is_empty() {
-                tip_menus.push_str(&generate_tips(tera, "General", &general_tips));
-            }
-            if !speed_tips.is_empty() {
-                tip_menus.push_str(&generate_tips(tera, "Speed", &speed_tips));
-            }
-            if !badge_tips.is_empty() {
-                tip_menus.push_str(&generate_tips(tera, "Badge", &badge_tips));
+                tip_macros.push_str(&format!(
+                    "macro {} say {}$$",
+                    tip.name
+                        .chars()
+                        .filter(|c| !c.is_whitespace())
+                        .collect::<String>(),
+                    tip.content
+                ));
             }
         }
-        println!("{}", tip_menus);
-
         let mut context = Context::new();
         context.insert("content", &event);
-        context.insert("tips", &tip_menus);
+        if !tips.is_empty() {
+            tip_macros.truncate(tip_macros.chars().count() - 2);
+            context.insert("tips", &tips);
+            context.insert("tip_macros", &tip_macros);
+        }
         let result = tera.render(template_name, &context);
         match result {
             Ok(sub_menu) => menus.push_str(&sub_menu),
@@ -192,17 +169,6 @@ fn generate_menus(
     }
 
     menus
-}
-
-fn generate_tips(tera: &Tera, tip_type: &str, tips: &Vec<Tip>) -> String {
-    let mut context = Context::new();
-    context.insert("type", &tip_type);
-    context.insert("tips", &tips);
-    let result = tera.render("tips.vm", &context);
-    match result {
-        Ok(tip_menu) => return tip_menu,
-        Err(e) => panic!("Unable to render tips {:?}", e),
-    };
 }
 
 fn read_data_file(path: PathBuf) -> Vec<GroupEvent> {

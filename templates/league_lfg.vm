@@ -1,5 +1,5 @@
-{% set league_size = content.league_size - 1 %}
-{%- set lfg_string_B = "LF" ~ league_size ~ "M" -%}
+{%- set league_size = content.league_size - 1 %}
+{%- set lfg_string_B = "LF" ~ league_size ~ "M" %}
         Menu "{{content.name}}"
         {
                 Menu "LFG"
@@ -7,8 +7,5 @@
                         Option "Normal run" "beginchat /lfg {{content.name}} league is forming in {{content.location}} to get here. Requirements: {{content.requirements}}. Rewards: {{content.rewards}}. {{lfg_string_B}}."
                         Option "Badge run" "beginchat /lfg {{content.name}} league is forming in {{content.location}}. Requirements, {{content.requirements}}. Rewards, {{content.rewards}}. {{lfg_string_B}}."
                 }
-                Menu "Tip"
-                {
-                        {{ tips }}
-                }
+                {%- include "tips.vm" %}
         }

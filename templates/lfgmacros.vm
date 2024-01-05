@@ -7,7 +7,6 @@ Menu "TSTv1"
         Menu "Level 1-35" {
         {{group_one}}
         }
-        
         Menu "Level 40-50" {
         {{group_two}}
         }

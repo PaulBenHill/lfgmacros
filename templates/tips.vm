@@ -1,6 +1,10 @@
-           Menu "{{ type }}"
-           {
-              {% for tip in tips %}
-                        Option "{{tip.name}}" "beginchat {{tip.name}}: {{tip.content}}"
-              {% endfor %}
-           }
+                {% if tips %}
+                Menu "Tips"
+                {
+                        Option "Generate Tip Macros" "{{tip_macros}}"
+                        Divider
+                        {%- for tip in tips %}
+                        Option "{{tip.name}}" "beginchat {{tip.content}}"
+                        {%- endfor %}
+                }
+                {% endif %}

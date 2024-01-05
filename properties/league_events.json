@@ -91,8 +91,8 @@
         "requirements": "level 35+ preferred",
         "rewards": "Vanguard Merits",
         "league_size": 48,
-        "location": "Rikti War Zone (SG Portal or Vanguard base in (Atlas Park, Founder's Falls, Peregrine Island) or (Cap au Diable, Grandville, St. Martial)",
-        "master": true,
+        "location": "Rikti War Zone",
+        "master": false,
         "tips": []
     },
     {

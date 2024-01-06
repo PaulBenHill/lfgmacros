@@ -137,6 +137,14 @@
                 {
                     "name": "Super stunners",
                     "content": "Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                },
+                {
+                    "name": "Final mission: Pull the side rooms",
+                    "content": "We are pulling the side rooms. Beware of how much is being pulled."
+                },
+                {
+                    "name": "Final mission: Wait on the computers",
+                    "content": "Please, clear the mobs before clicking the computers."
                 }
             ]
         },

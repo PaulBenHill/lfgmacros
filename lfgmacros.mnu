@@ -151,9 +151,11 @@ Menu "TSTv1"
                 }                
                 Menu "Tips"
                 {
-                        Option "Generate Tip Macros" "macro Superstunners say Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                        Option "Generate Tip Macros" "macro Superstunners say Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid.$$macro Finalmission:Pullthesiderooms say We are pulling the side rooms. Beware of how much is being pulled.$$macro Finalmission:Waitonthecomputers say Please, clear the mobs before clicking the computers."
                         Divider
                         Option "Super stunners" "beginchat Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                        Option "Final mission: Pull the side rooms" "beginchat We are pulling the side rooms. Beware of how much is being pulled."
+                        Option "Final mission: Wait on the computers" "beginchat Please, clear the mobs before clicking the computers."
                 }
                 
         }

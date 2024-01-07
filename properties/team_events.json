@@ -9,11 +9,11 @@
             "tips": [
                 {
                     "name": "Cadaver Counter Badge",
-                    "content": "Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
+                    "content": "Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
                 },
                 {
                     "name": "The Cleanser Badge",
-                    "content": "Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
+                    "content": "The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
                 }
             ]
         },
@@ -72,7 +72,7 @@
                 },
                 {
                     "name": "Volcanic Badge",
-                    "content": "Defeat 100 Magmite Lords."
+                    "content": "Volcanic Badge: Defeat 100 Magmite Lords."
                 }
             ]
         },
@@ -86,11 +86,11 @@
             "tips": [
                 {
                     "name": "Sidereal Researcher Badge",
-                    "content": "Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
+                    "content": "Sidereal Researcher Badge: Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
                 },
                 {
                     "name": "Brotherly Love Badge",
-                    "content": "You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
+                    "content": "Brotherly Love Badge: You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
                 }
             ]
         },
@@ -136,7 +136,7 @@
             "tips": [
                 {
                     "name": "Super stunners",
-                    "content": "Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                    "content": "Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
                 },
                 {
                     "name": "Final mission: Pull the side rooms",

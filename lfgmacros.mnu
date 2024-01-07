@@ -18,10 +18,10 @@ Menu "TSTv1"
                 }                
                 Menu "Tips"
                 {
-                        Option "Generate Tip Macros" "macro CadaverCounterBadge say Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down.$$macro TheCleanserBadge say Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
+                        Option "Generate Tip Macros" "macro CadaverCounterBadge say Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down.$$macro TheCleanserBadge say The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
                         Divider
-                        Option "Cadaver Counter Badge" "beginchat Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
-                        Option "The Cleanser Badge" "beginchat Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
+                        Option "Cadaver Counter Badge" "beginchat Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
+                        Option "The Cleanser Badge" "beginchat The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
                 }
                 
         }
@@ -76,10 +76,10 @@ Menu "TSTv1"
                 }                
                 Menu "Tips"
                 {
-                        Option "Generate Tip Macros" "macro ActivateObelisks say There are eight obelisks that need to be clicked. Then the hostage door will open.$$macro VolcanicBadge say Defeat 100 Magmite Lords."
+                        Option "Generate Tip Macros" "macro ActivateObelisks say There are eight obelisks that need to be clicked. Then the hostage door will open.$$macro VolcanicBadge say Volcanic Badge: Defeat 100 Magmite Lords."
                         Divider
                         Option "Activate Obelisks" "beginchat There are eight obelisks that need to be clicked. Then the hostage door will open."
-                        Option "Volcanic Badge" "beginchat Defeat 100 Magmite Lords."
+                        Option "Volcanic Badge" "beginchat Volcanic Badge: Defeat 100 Magmite Lords."
                 }
                 
         }
@@ -95,10 +95,10 @@ Menu "TSTv1"
                 }                
                 Menu "Tips"
                 {
-                        Option "Generate Tip Macros" "macro SiderealResearcherBadge say Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes).$$macro BrotherlyLoveBadge say You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
+                        Option "Generate Tip Macros" "macro SiderealResearcherBadge say Sidereal Researcher Badge: Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes).$$macro BrotherlyLoveBadge say Brotherly Love Badge: You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
                         Divider
-                        Option "Sidereal Researcher Badge" "beginchat Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
-                        Option "Brotherly Love Badge" "beginchat You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
+                        Option "Sidereal Researcher Badge" "beginchat Sidereal Researcher Badge: Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
+                        Option "Brotherly Love Badge" "beginchat Brotherly Love Badge: You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
                 }
                 
         }
@@ -151,9 +151,9 @@ Menu "TSTv1"
                 }                
                 Menu "Tips"
                 {
-                        Option "Generate Tip Macros" "macro Superstunners say Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid.$$macro Finalmission:Pullthesiderooms say We are pulling the side rooms. Beware of how much is being pulled.$$macro Finalmission:Waitonthecomputers say Please, clear the mobs before clicking the computers."
+                        Option "Generate Tip Macros" "macro Superstunners say Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid.$$macro Finalmission:Pullthesiderooms say We are pulling the side rooms. Beware of how much is being pulled.$$macro Finalmission:Waitonthecomputers say Please, clear the mobs before clicking the computers."
                         Divider
-                        Option "Super stunners" "beginchat Have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                        Option "Super stunners" "beginchat Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
                         Option "Final mission: Pull the side rooms" "beginchat We are pulling the side rooms. Beware of how much is being pulled."
                         Option "Final mission: Wait on the computers" "beginchat Please, clear the mobs before clicking the computers."
                 }

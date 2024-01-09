@@ -20,6 +20,8 @@ const LEAGUE_EVENT_TEMPLATE: &'static str = "league_lfg.vm";
 
 const OUTPUT_FILE_NAME: &'static str = "lfgmacros.mnu";
 
+const LEVEL_SPIT: &'static u8 = &36;
+
 #[derive(Clone, Serialize, Deserialize, Debug)]
 #[serde(tag = "type")]
 pub enum GroupEvent {
@@ -41,7 +43,7 @@ pub enum GroupEvent {
     },
 }
 impl GroupEvent {
-    fn compare_level_requirement(self, value: u8) -> i8 {
+    fn compare_level_requirement(&self, value: &u8) -> i8 {
         match self {
             GroupEvent::TeamEvent {
                 name: _,
@@ -53,7 +55,7 @@ impl GroupEvent {
             } => {
                 if level_requirement < value {
                     -1
-                } else if value == 0 {
+                } else if value == &0 {
                     0
                 } else {
                     1
@@ -93,33 +95,27 @@ pub struct Tip {
 }
 
 fn main() {
-    let team_path = Path::new(".")
-        .join(PROPERTIES_DIR)
-        .join(TEAM_EVENT_FILE_NAME);
-    let team_events: Vec<GroupEvent> = read_data_file(team_path);
+    let team_events = load_json_data(PROPERTIES_DIR, TEAM_EVENT_FILE_NAME);
+    let league_events = load_json_data(PROPERTIES_DIR, LEAGUE_EVENT_FILE_NAME);
 
-    let league_path = Path::new(".")
-        .join(PROPERTIES_DIR)
-        .join(LEAGUE_EVENT_FILE_NAME);
-    let league_events: Vec<GroupEvent> = read_data_file(league_path);
-
+    // Because there are so many team events, sort them into two groups based on minimal level
     let (g1, g2): (_, Vec<GroupEvent>) = team_events
-        .clone()
         .into_iter()
-        .partition(|e| e.clone().compare_level_requirement(36) < 0);
+        .partition(|e| e.compare_level_requirement(LEVEL_SPIT) < 0);
 
     let tera = match Tera::new(&format!("{}{}*.vm", TEMPLATES, path::MAIN_SEPARATOR)) {
         Ok(t) => t,
         Err(e) => panic!("Unable to load templates: {:?}", e),
     };
 
+    // Generate menus for each event
     let group_one_menus = generate_menus(&tera, g1, TEAM_EVENT_TEMPLATE);
     //print!("{}", group_one_menus);
     let group_two_menus = generate_menus(&tera, g2, TEAM_EVENT_TEMPLATE);
     //print!("{}", group_two_menus);
-
     let league_event_menus = generate_menus(&tera, league_events.clone(), LEAGUE_EVENT_TEMPLATE);
 
+    // Generate the top level menu given all the sub menus
     let mut top_level_context = Context::new();
     top_level_context.insert("group_one", &group_one_menus);
     top_level_context.insert("group_two", &group_two_menus);
@@ -130,6 +126,12 @@ fn main() {
         Ok(top_menu) => write_output(top_menu),
         Err(e) => panic!("Could not render top level template: {:?}", e),
     }
+}
+
+fn load_json_data(properties_dir: &str, file_name: &str) -> Vec<GroupEvent> {
+    let file_path = Path::new(".").join(properties_dir).join(file_name);
+
+    read_data_file(file_path)
 }
 
 fn generate_menus(
@@ -144,6 +146,13 @@ fn generate_menus(
         let mut tip_macros = String::new();
         if !tips.is_empty() {
             for tip in tips {
+                // Macros in menus are even more restricted than typing in the chat window
+                // The macro name cannot have spaces
+                // There cannot be any double or single quotes inside the macro
+                // Whitespace is allowed after the macro name
+                // "macro name content$$macro name content"
+                // Ex: Option "Generate Tip Macros" "macro CadaverCounterBadge say Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down.$$macro TheCleanserBadge say The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
+                // If you don't follow the format the macros will fail silently
                 tip_macros.push_str(&format!(
                     "macro {} say {}$$",
                     tip.name
@@ -157,6 +166,7 @@ fn generate_menus(
         let mut context = Context::new();
         context.insert("content", &event);
         if !tips.is_empty() {
+            // truncate the last $$
             tip_macros.truncate(tip_macros.chars().count() - 2);
             context.insert("tips", &tips);
             context.insert("tip_macros", &tip_macros);

@@ -1,5 +1,35 @@
 // Task Forces, Strikes Forces, and Trials LFG macros
-//  Author: KaizenSoze
+// Author: KaizenSoze
+// From: http://www.shenanigunner.com/CoX-Technical-Guide-v3-25.pdf
+// City of Heroes / City of Villains Technical Reference Guide
+// page 49
+//Because they’re a little weird and work entirely “under the hood” of the game, here’s a summary of what you’re facing:
+//
+//1. Just like bindfiles, popmenus use ASCII text files. Don’t edit them in Word or such, use Notepad++ or a
+//   similar all-ASCII programmer’s editor. As with all game files, avoid “curly quotes” like these at all costs.
+//2. Popmenu files must have the .MNU or .mnu extension.
+//3. Popmenus must be placed in a specific game folder, which you may have to create.
+//   The file location is [GAME ROOT]\data\texts\english\menus. You will probably have to create
+//   everything under \data.
+//4. The good part: that’s all you have to do to install them. If they’re there, the game loads them. And
+//   they are thereafter accessible by all alts.
+//5. The bad part: popmenus are only loaded at game start. To load new ones or edits, you have to re-
+//   start the game from scratch. That means desktop, not the login or character screen. Gets tedious.
+//6. Popmenu files have a highly defined structure; if you get anything wrong, the menu won’t work right.
+//   Make sure to match curly braces around groups of items.
+//7. The file must have at least one carriage return (CR) character before the first Menu keyword or
+//   it will not load/function. Get in the habit of putting a comment line with the menu function at the
+//   beginning so as not to get bitten by this quirk. (And don’t ask me how I know.)
+//8. Any power or function name with spaces can substitute underscores for the spaces to avoid parsing
+//   errors: e.g. Speed of Sound should be used as Speed_of_Sound in menu files.
+//9. Command strings generally follow the format for bind and macro definitions, including using $$ to
+//   join commands in a string, but there are many limitations on how menus parse commands.
+//
+// Fair warning: Some mistakes in a popmenu definition file can crash the game client,
+// usually when the faulty menu or command is accessed. Test new menus and chang-
+// es in a safe location, so that crash-to-report-screen doesn’t mess up your alt’s day.
+// Most such crashes are caused by undefined actions (like a Menu with a null argument).
+// Most simple coding errors just mean the menu doesn’t work right.
 Menu "TSTv1"
 {
     Title "Task Forces, Strikes Forces, and Trials LFG"

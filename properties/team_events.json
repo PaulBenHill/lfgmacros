@@ -103,6 +103,14 @@
             "location": "Skyway City",
             "tips": [
                 {
+                    "name": "Get the gears",
+                    "content": "Make sure clean up all the little gears, they count towards the kill all."
+                },
+                {
+                    "name": "Spread out",
+                    "content": "Spread out, the patrol boxes to click are random."
+                },
+                {
                     "name": "Babbage",
                     "content": "The monster Babbage will appear after outside this mission after completion. Keep an eye out."
                 }

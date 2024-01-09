@@ -9,14 +9,14 @@ use std::vec::Vec;
 use tera::Context;
 use tera::Tera;
 
-const PROPERTIES_DIR: &'static str = "properties";
-const TEMPLATES: &'static str = "templates";
-const TEAM_EVENT_FILE_NAME: &'static str = "team_events.json";
-const LEAGUE_EVENT_FILE_NAME: &'static str = "league_events.json";
+const PROPERTIES_DIR: &str = "properties";
+const TEMPLATES: &str = "templates";
+const TEAM_EVENT_FILE_NAME: &str = "team_events.json";
+const LEAGUE_EVENT_FILE_NAME: &str = "league_events.json";
 
-const TOP_LEVEL_MENU_TEMPLATE: &'static str = "lfgmacros.vm";
-const TEAM_EVENT_TEMPLATE: &'static str = "task_strike_trial_lfg.vm";
-const LEAGUE_EVENT_TEMPLATE: &'static str = "league_lfg.vm";
+const TOP_LEVEL_MENU_TEMPLATE: &str = "lfgmacros.vm";
+const TEAM_EVENT_TEMPLATE: &str = "task_strike_trial_lfg.vm";
+const LEAGUE_EVENT_TEMPLATE: &str = "league_lfg.vm";
 
 const OUTPUT_FILE_NAME: &'static str = "lfgmacros.mnu";
 
@@ -134,11 +134,7 @@ fn load_json_data(properties_dir: &str, file_name: &str) -> Vec<GroupEvent> {
     read_data_file(file_path)
 }
 
-fn generate_menus(
-    tera: &Tera,
-    group_events: Vec<GroupEvent>,
-    template_name: &'static str,
-) -> String {
+fn generate_menus(tera: &Tera, group_events: Vec<GroupEvent>, template_name: &str) -> String {
     let mut menus: String = String::new();
     for event in group_events {
         let tips = event.get_tips();

@@ -94,6 +94,10 @@ pub struct Tip {
     content: String,
 }
 
+// Load the data from the JSON files
+// For each team/league event are generated in this order
+// tip macros->tip menus->LFG menus->event menu->top level menu
+// It's done this way because of the way the menus have to be nested
 fn main() {
     let team_events = load_json_data(PROPERTIES_DIR, TEAM_EVENT_FILE_NAME);
     let league_events = load_json_data(PROPERTIES_DIR, LEAGUE_EVENT_FILE_NAME);
@@ -108,7 +112,6 @@ fn main() {
         Err(e) => panic!("Unable to load templates: {:?}", e),
     };
 
-    // Generate menus for each event
     let group_one_menus = generate_menus(&tera, g1, TEAM_EVENT_TEMPLATE);
     //print!("{}", group_one_menus);
     let group_two_menus = generate_menus(&tera, g2, TEAM_EVENT_TEMPLATE);
@@ -142,8 +145,8 @@ fn generate_menus(tera: &Tera, group_events: Vec<GroupEvent>, template_name: &st
         let mut tip_macros = String::new();
         if !tips.is_empty() {
             for tip in tips {
-                // Macros in menus are even more restricted than typing in the chat window
-                // The macro name cannot have spaces
+                // Macros in menus are even more restricted than what is available in the chat window
+                // The macro names cannot have spaces
                 // There cannot be any double or single quotes inside the macro
                 // Whitespace is allowed after the macro name
                 // "macro name content$$macro name content"

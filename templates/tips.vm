@@ -1,6 +1,5 @@
                 {% if tips %}
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "{{tip_macros}}"
                         Divider
                         {%- for tip in tips %}

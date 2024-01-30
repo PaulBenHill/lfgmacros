@@ -3,14 +3,12 @@
 {%- set lfg_string_A = content.name  ~ ". Level required " ~ content.level_requirement ~ "+." -%}
 {%- set lfg_string_B = content.merits ~ " merits. LF" ~ team_size ~ "M." -%}
 {%- set lfg_string_C = double_merits ~ " merits. " ~ "Location: " ~ content.location ~ ". LF" ~ team_size ~ "M." %}
-        Menu "{{content.name}}"
-        {
-                Menu "LFG"
-                {
+        Menu "{{content.name}}" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. {{lfg_string_A}} This is a kill most, we will NOT speed objectives. Location: {{content.location}}. {{lfg_string_B}}"
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. {{lfg_string_A}} This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to {{lfg_string_C}}"
                         Option "Speed" "beginchat /lfg Speed run. {{lfg_string_A}} Speed run, we will skip most mobs. Location: {{content.location}}. {{lfg_string_B}}"
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. {{lfg_string_A}} Speed run, we will skip most mobs. If this is your first WST of the week, up to {{lfg_string_C}}"
                 }
-                {%- include "tips.vm" %}
+                {%- include "tips.vm" -%}
         }

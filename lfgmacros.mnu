@@ -30,43 +30,35 @@
 // es in a safe location, so that crash-to-report-screen doesn’t mess up your alt’s day.
 // Most such crashes are caused by undefined actions (like a Menu with a null argument).
 // Most simple coding errors just mean the menu doesn’t work right.
-Menu "TSTv1"
-{
+Menu "TSTv1" {
     Title "Task Forces, Strikes Forces, and Trials LFG"
     Menu "Task Forces, Strike Forces, Trials" {
         Menu "Level 1-35" {
         
 
-        Menu "Death from Below (New player trial)"
-        {
-                Menu "LFG"
-                {
+        Menu "Death from Below (New player trial)" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Death from Below (New player trial). Level required 1+. This is a kill most, we will NOT speed objectives. Location: Atlas Park/Mercy Island. 0 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Death from Below (New player trial). Level required 1+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 0 merits. Location: Atlas Park/Mercy Island. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Death from Below (New player trial). Level required 1+. Speed run, we will skip most mobs. Location: Atlas Park/Mercy Island. 0 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Death from Below (New player trial). Level required 1+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 0 merits. Location: Atlas Park/Mercy Island. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro CadaverCounterBadge say Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down.$$macro TheCleanserBadge say The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
                         Divider
                         Option "Cadaver Counter Badge" "beginchat Cadaver Counter Badge: Defeat the Vahzilok leader in the Death from Below Sewer Trial without killing any of the Cadavers. That means no AOE, Sands of Mu is an AOE, park/dismiss your pets, all damage on Dr. Meinst till she is down."
                         Option "The Cleanser Badge" "beginchat The Cleanser Badge: Defeat all the Lost Worshippers in the Death from Below Sewer Trial before defeating the Lost leader."
                 }
-                
-        }
+                }
 
-        Menu "Positron 1 Task Force: Rule of Three"
-        {
-                Menu "LFG"
-                {
+        Menu "Positron 1 Task Force: Rule of Three" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Positron 1 Task Force: Rule of Three. Level required 8+. This is a kill most, we will NOT speed objectives. Location: Steel Canyon. 11 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Positron 1 Task Force: Rule of Three. Level required 8+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 22 merits. Location: Steel Canyon. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Positron 1 Task Force: Rule of Three. Level required 8+. Speed run, we will skip most mobs. Location: Steel Canyon. 11 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Positron 1 Task Force: Rule of Three. Level required 8+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 22 merits. Location: Steel Canyon. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro RuinMages say Ruin mages cast earthquake and shields. Take them out first.$$macro Mission:SaveAtlasPark! say We just need to recuse the hostages, but wait before approaching the city hall steps.$$macro CityHallAmbush say Do not step onto the city hall entrance stairs or touch the door till we are ready. Or you will trigger the ambush early.$$macro Doppelgangers say These are boss level copies of our team. Including all the buffs and debuffs."
                         Divider
                         Option "Ruin Mages" "beginchat Ruin mages cast earthquake and shields. Take them out first."
@@ -74,435 +66,349 @@ Menu "TSTv1"
                         Option "City Hall Ambush" "beginchat Do not step onto the city hall entrance stairs or touch the door till we are ready. Or you will trigger the ambush early."
                         Option "Doppelgangers" "beginchat These are boss level copies of our team. Including all the buffs and debuffs."
                 }
-                
-        }
+                }
 
-        Menu "Positron 2 Task Force: Dam Hero"
-        {
-                Menu "LFG"
-                {
+        Menu "Positron 2 Task Force: Dam Hero" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Positron 2 Task Force: Dam Hero. Level required 11+. This is a kill most, we will NOT speed objectives. Location: Steel Canyon. 15 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Positron 2 Task Force: Dam Hero. Level required 11+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 30 merits. Location: Steel Canyon. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Positron 2 Task Force: Dam Hero. Level required 11+. Speed run, we will skip most mobs. Location: Steel Canyon. 15 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Positron 2 Task Force: Dam Hero. Level required 11+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 30 merits. Location: Steel Canyon. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro RuinMages say Ruin mages cast earthquake and shields. Take them out first."
                         Divider
                         Option "Ruin Mages" "beginchat Ruin mages cast earthquake and shields. Take them out first."
                 }
-                
-        }
+                }
 
-        Menu "Karsis: The Cavern of Transcendence"
-        {
-                Menu "LFG"
-                {
+        Menu "Karsis: The Cavern of Transcendence" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Karsis: The Cavern of Transcendence. Level required 12+. This is a kill most, we will NOT speed objectives. Location: The Hollows. 8 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Karsis: The Cavern of Transcendence. Level required 12+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 16 merits. Location: The Hollows. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Karsis: The Cavern of Transcendence. Level required 12+. Speed run, we will skip most mobs. Location: The Hollows. 8 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Karsis: The Cavern of Transcendence. Level required 12+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 16 merits. Location: The Hollows. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro ActivateObelisks say There are eight obelisks that need to be clicked. Then the hostage door will open.$$macro VolcanicBadge say Volcanic Badge: Defeat 100 Magmite Lords."
                         Divider
                         Option "Activate Obelisks" "beginchat There are eight obelisks that need to be clicked. Then the hostage door will open."
                         Option "Volcanic Badge" "beginchat Volcanic Badge: Defeat 100 Magmite Lords."
                 }
-                
-        }
+                }
 
-        Menu "Drowning in Blood Trial"
-        {
-                Menu "LFG"
-                {
+        Menu "Drowning in Blood Trial" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Drowning in Blood Trial. Level required 15+. This is a kill most, we will NOT speed objectives. Location: Atlas Park/Mercy Island. 2 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Drowning in Blood Trial. Level required 15+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 4 merits. Location: Atlas Park/Mercy Island. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Drowning in Blood Trial. Level required 15+. Speed run, we will skip most mobs. Location: Atlas Park/Mercy Island. 2 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Drowning in Blood Trial. Level required 15+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 4 merits. Location: Atlas Park/Mercy Island. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro SiderealResearcherBadge say Sidereal Researcher Badge: Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes).$$macro BrotherlyLoveBadge say Brotherly Love Badge: You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
                         Divider
                         Option "Sidereal Researcher Badge" "beginchat Sidereal Researcher Badge: Click on all four glowing meteors during the Drowning in Blood Trial in Bloody Bay after speaking with an NPC on the Boardwalk, either: a Night Widow spy (Villains) or a Longbow Scientist (Heroes)."
                         Option "Brotherly Love Badge" "beginchat Brotherly Love Badge: You defeated both Shivan Obliterators at the end of Drowning in Blood within 30 seconds of each other."
                 }
-                
-        }
+                }
 
-        Menu "Synapse: The Fall of the Clockwork King"
-        {
-                Menu "LFG"
-                {
+        Menu "Synapse: The Fall of the Clockwork King" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Synapse: The Fall of the Clockwork King. Level required 15+. This is a kill most, we will NOT speed objectives. Location: Skyway City. 58 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Synapse: The Fall of the Clockwork King. Level required 15+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 116 merits. Location: Skyway City. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Synapse: The Fall of the Clockwork King. Level required 15+. Speed run, we will skip most mobs. Location: Skyway City. 58 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Synapse: The Fall of the Clockwork King. Level required 15+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 116 merits. Location: Skyway City. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro Getthegears say Make sure clean up all the little gears, they count towards the kill all.$$macro Spreadout say Spread out, the patrol boxes to click are random.$$macro Babbage say The monster Babbage will appear after outside this mission after completion. Keep an eye out."
                         Divider
                         Option "Get the gears" "beginchat Make sure clean up all the little gears, they count towards the kill all."
                         Option "Spread out" "beginchat Spread out, the patrol boxes to click are random."
                         Option "Babbage" "beginchat The monster Babbage will appear after outside this mission after completion. Keep an eye out."
                 }
-                
-        }
+                }
 
-        Menu "Virgil Tarikoss: The Beast Beneath the Mountain Strike Force"
-        {
-                Menu "LFG"
-                {
+        Menu "Virgil Tarikoss: The Beast Beneath the Mountain Strike Force" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Virgil Tarikoss: The Beast Beneath the Mountain Strike Force. Level required 15+. This is a kill most, we will NOT speed objectives. Location: Red side. Cap au Diable. 13 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Virgil Tarikoss: The Beast Beneath the Mountain Strike Force. Level required 15+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 26 merits. Location: Red side. Cap au Diable. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Virgil Tarikoss: The Beast Beneath the Mountain Strike Force. Level required 15+. Speed run, we will skip most mobs. Location: Red side. Cap au Diable. 13 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Virgil Tarikoss: The Beast Beneath the Mountain Strike Force. Level required 15+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 26 merits. Location: Red side. Cap au Diable. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro Mission:FindMethodtoPierceBarrier say We need to kidnap the portal tech and lead them to the computer.$$macro Mission:BindBat'Zul say Defeat Infernal. Click the five altars. Defeat Bat'Zul, who will spawn in the middle of the map."
                         Divider
                         Option "Mission: Find Method to Pierce Barrier" "beginchat We need to kidnap the portal tech and lead them to the computer."
                         Option "Mission: Bind Bat'Zul" "beginchat Defeat Infernal. Click the five altars. Defeat Bat'Zul, who will spawn in the middle of the map."
                 }
-                
-        }
+                }
 
-        Menu "Penelope Yin Task Force: Clamor for the people"
-        {
-                Menu "LFG"
-                {
+        Menu "Penelope Yin Task Force: Clamor for the people" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Penelope Yin Task Force: Clamor for the people. Level required 20+. This is a kill most, we will NOT speed objectives. Location: Independence Port. 20 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Penelope Yin Task Force: Clamor for the people. Level required 20+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Independence Port. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Penelope Yin Task Force: Clamor for the people. Level required 20+. Speed run, we will skip most mobs. Location: Independence Port. 20 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Penelope Yin Task Force: Clamor for the people. Level required 20+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Independence Port. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro Superstunners say Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid.$$macro Finalmission:Pullthesiderooms say We are pulling the side rooms. Beware of how much is being pulled.$$macro Finalmission:Waitonthecomputers say Please, clear the mobs before clicking the computers."
                         Divider
                         Option "Super stunners" "beginchat Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
                         Option "Final mission: Pull the side rooms" "beginchat We are pulling the side rooms. Beware of how much is being pulled."
                         Option "Final mission: Wait on the computers" "beginchat Please, clear the mobs before clicking the computers."
                 }
-                
-        }
+                }
 
-        Menu "Silver Mantis: Pirates of the Sky"
-        {
-                Menu "LFG"
-                {
+        Menu "Silver Mantis: Pirates of the Sky" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Silver Mantis: Pirates of the Sky. Level required 20+. This is a kill most, we will NOT speed objectives. Location: Red side. Sharkhead Isle. 42 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Silver Mantis: Pirates of the Sky. Level required 20+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 84 merits. Location: Red side. Sharkhead Isle. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Silver Mantis: Pirates of the Sky. Level required 20+. Speed run, we will skip most mobs. Location: Red side. Sharkhead Isle. 42 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Silver Mantis: Pirates of the Sky. Level required 20+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 84 merits. Location: Red side. Sharkhead Isle. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Mortimer Kal: The Fire and the Flames"
-        {
-                Menu "LFG"
-                {
+        Menu "Mortimer Kal: The Fire and the Flames" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Mortimer Kal: The Fire and the Flames. Level required 20+. This is a kill most, we will NOT speed objectives. Location: Red side. Sharkhead Isle. 22 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Mortimer Kal: The Fire and the Flames. Level required 20+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 44 merits. Location: Red side. Sharkhead Isle. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Mortimer Kal: The Fire and the Flames. Level required 20+. Speed run, we will skip most mobs. Location: Red side. Sharkhead Isle. 22 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Mortimer Kal: The Fire and the Flames. Level required 20+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 44 merits. Location: Red side. Sharkhead Isle. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Admiral Sutter: The Sky is Falling"
-        {
-                Menu "LFG"
-                {
+        Menu "Admiral Sutter: The Sky is Falling" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Admiral Sutter: The Sky is Falling. Level required 20+. This is a kill most, we will NOT speed objectives. Location: Independence Port. 22 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Admiral Sutter: The Sky is Falling. Level required 20+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 44 merits. Location: Independence Port. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Admiral Sutter: The Sky is Falling. Level required 20+. Speed run, we will skip most mobs. Location: Independence Port. 22 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Admiral Sutter: The Sky is Falling. Level required 20+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 44 merits. Location: Independence Port. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Moonfire: The Keldian War"
-        {
-                Menu "LFG"
-                {
+        Menu "Moonfire: The Keldian War" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Moonfire: The Keldian War. Level required 23+. This is a kill most, we will NOT speed objectives. Location: Striga Island. 32 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Moonfire: The Keldian War. Level required 23+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 64 merits. Location: Striga Island. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Moonfire: The Keldian War. Level required 23+. Speed run, we will skip most mobs. Location: Striga Island. 32 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Moonfire: The Keldian War. Level required 23+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 64 merits. Location: Striga Island. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Jane Hallaway: Terra Volta Respec #1"
-        {
-                Menu "LFG"
-                {
+        Menu "Jane Hallaway: Terra Volta Respec #1" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Jane Hallaway: Terra Volta Respec #1. Level required 24+. This is a kill most, we will NOT speed objectives. Location: Independence Port. 28 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Jane Hallaway: Terra Volta Respec #1. Level required 24+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 56 merits. Location: Independence Port. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Jane Hallaway: Terra Volta Respec #1. Level required 24+. Speed run, we will skip most mobs. Location: Independence Port. 28 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Jane Hallaway: Terra Volta Respec #1. Level required 24+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 56 merits. Location: Independence Port. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Sparcetriel: Tree Respec #1"
-        {
-                Menu "LFG"
-                {
+        Menu "Sparcetriel: Tree Respec #1" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Sparcetriel: Tree Respec #1. Level required 24+. This is a kill most, we will NOT speed objectives. Location: Red side. Nerva Archipelago. 15 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Sparcetriel: Tree Respec #1. Level required 24+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 30 merits. Location: Red side. Nerva Archipelago. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Sparcetriel: Tree Respec #1. Level required 24+. Speed run, we will skip most mobs. Location: Red side. Nerva Archipelago. 15 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Sparcetriel: Tree Respec #1. Level required 24+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 30 merits. Location: Red side. Nerva Archipelago. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Ernesto Hess: The Megamech Cometh"
-        {
-                Menu "LFG"
-                {
+        Menu "Ernesto Hess: The Megamech Cometh" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Ernesto Hess: The Megamech Cometh. Level required 25+. This is a kill most, we will NOT speed objectives. Location: Striga Island. 19 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Ernesto Hess: The Megamech Cometh. Level required 25+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 38 merits. Location: Striga Island. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Ernesto Hess: The Megamech Cometh. Level required 25+. Speed run, we will skip most mobs. Location: Striga Island. 19 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Ernesto Hess: The Megamech Cometh. Level required 25+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 38 merits. Location: Striga Island. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Twilight's Son: Smoke and Mirrors"
-        {
-                Menu "LFG"
-                {
+        Menu "Twilight's Son: Smoke and Mirrors" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Twilight's Son: Smoke and Mirrors. Level required 25+. This is a kill most, we will NOT speed objectives. Location: Oroboros. 7 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Twilight's Son: Smoke and Mirrors. Level required 25+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 14 merits. Location: Oroboros. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Twilight's Son: Smoke and Mirrors. Level required 25+. Speed run, we will skip most mobs. Location: Oroboros. 7 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Twilight's Son: Smoke and Mirrors. Level required 25+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 14 merits. Location: Oroboros. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Katie Hannon: A Tangled Plot"
-        {
-                Menu "LFG"
-                {
+        Menu "Katie Hannon: A Tangled Plot" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Katie Hannon: A Tangled Plot. Level required 30+. This is a kill most, we will NOT speed objectives. Location: Croatoa. 26 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Katie Hannon: A Tangled Plot. Level required 30+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 52 merits. Location: Croatoa. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Katie Hannon: A Tangled Plot. Level required 30+. Speed run, we will skip most mobs. Location: Croatoa. 26 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Katie Hannon: A Tangled Plot. Level required 30+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 52 merits. Location: Croatoa. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Manticore: Following Countess Crey"
-        {
-                Menu "LFG"
-                {
+        Menu "Manticore: Following Countess Crey" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Manticore: Following Countess Crey. Level required 30+. This is a kill most, we will NOT speed objectives. Location: Brickstown. 32 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Manticore: Following Countess Crey. Level required 30+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 64 merits. Location: Brickstown. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Manticore: Following Countess Crey. Level required 30+. Speed run, we will skip most mobs. Location: Brickstown. 32 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Manticore: Following Countess Crey. Level required 30+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 64 merits. Location: Brickstown. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "James Harlan: Terra Volta Respec #2"
-        {
-                Menu "LFG"
-                {
+        Menu "James Harlan: Terra Volta Respec #2" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. James Harlan: Terra Volta Respec #2. Level required 34+. This is a kill most, we will NOT speed objectives. Location: Founder's Falls. 20 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. James Harlan: Terra Volta Respec #2. Level required 34+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Founder's Falls. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. James Harlan: Terra Volta Respec #2. Level required 34+. Speed run, we will skip most mobs. Location: Founder's Falls. 20 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. James Harlan: Terra Volta Respec #2. Level required 34+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Founder's Falls. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Trepsarciel: Tree Respec #2"
-        {
-                Menu "LFG"
-                {
+        Menu "Trepsarciel: Tree Respec #2" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Trepsarciel: Tree Respec #2. Level required 34+. This is a kill most, we will NOT speed objectives. Location: Red side. Nerva Archipelago. 14 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Trepsarciel: Tree Respec #2. Level required 34+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 28 merits. Location: Red side. Nerva Archipelago. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Trepsarciel: Tree Respec #2. Level required 34+. Speed run, we will skip most mobs. Location: Red side. Nerva Archipelago. 14 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Trepsarciel: Tree Respec #2. Level required 34+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 28 merits. Location: Red side. Nerva Archipelago. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Numina: Soul of the Woodsman"
-        {
-                Menu "LFG"
-                {
+        Menu "Numina: Soul of the Woodsman" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Numina: Soul of the Woodsman. Level required 35+. This is a kill most, we will NOT speed objectives. Location: Founder's Falls. 36 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Numina: Soul of the Woodsman. Level required 35+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 72 merits. Location: Founder's Falls. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Numina: Soul of the Woodsman. Level required 35+. Speed run, we will skip most mobs. Location: Founder's Falls. 36 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Numina: Soul of the Woodsman. Level required 35+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 72 merits. Location: Founder's Falls. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Ice Mistral: The Crystal of Serafina"
-        {
-                Menu "LFG"
-                {
+        Menu "Ice Mistral: The Crystal of Serafina" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Ice Mistral: The Crystal of Serafina. Level required 35+. This is a kill most, we will NOT speed objectives. Location: Red side. St. Martial. 26 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Ice Mistral: The Crystal of Serafina. Level required 35+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 52 merits. Location: Red side. St. Martial. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Ice Mistral: The Crystal of Serafina. Level required 35+. Speed run, we will skip most mobs. Location: Red side. St. Martial. 26 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Ice Mistral: The Crystal of Serafina. Level required 35+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 52 merits. Location: Red side. St. Martial. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Dr. Aeon: Chasing Fool's Gold"
-        {
-                Menu "LFG"
-                {
+        Menu "Dr. Aeon: Chasing Fool's Gold" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Dr. Aeon: Chasing Fool's Gold. Level required 35+. This is a kill most, we will NOT speed objectives. Location: Red side. Port Oaks. 40 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Dr. Aeon: Chasing Fool's Gold. Level required 35+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 80 merits. Location: Red side. Port Oaks. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Dr. Aeon: Chasing Fool's Gold. Level required 35+. Speed run, we will skip most mobs. Location: Red side. Port Oaks. 40 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Dr. Aeon: Chasing Fool's Gold. Level required 35+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 80 merits. Location: Red side. Port Oaks. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Imperious: Time's Arrow"
-        {
-                Menu "LFG"
-                {
+        Menu "Imperious: Time's Arrow" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Imperious: Time's Arrow. Level required 35+. This is a kill most, we will NOT speed objectives. Location: Cimerora (via Ouroboros with badge or Midnighter Club with badge). 26 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Imperious: Time's Arrow. Level required 35+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 52 merits. Location: Cimerora (via Ouroboros with badge or Midnighter Club with badge). LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Imperious: Time's Arrow. Level required 35+. Speed run, we will skip most mobs. Location: Cimerora (via Ouroboros with badge or Midnighter Club with badge). 26 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Imperious: Time's Arrow. Level required 35+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 52 merits. Location: Cimerora (via Ouroboros with badge or Midnighter Club with badge). LF7M."
-                }                
-        }
+                }                }
         }
         Menu "Level 40-50" {
         
 
-        Menu "Dr. Quarterfield: Explorers and Exploiters"
-        {
-                Menu "LFG"
-                {
+        Menu "Abandoned Sewers Trial" {
+                Menu "LFG" {
+                        Option "Kill most" "beginchat /lfg Kill most. Abandoned Sewers Trial. Level required 38+. This is a kill most, we will NOT speed objectives. Location: Atlas Park. 29 merits. LF7M."
+                        Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Abandoned Sewers Trial. Level required 38+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 58 merits. Location: Atlas Park. LF7M."
+                        Option "Speed" "beginchat /lfg Speed run. Abandoned Sewers Trial. Level required 38+. Speed run, we will skip most mobs. Location: Atlas Park. 29 merits. LF7M."
+                        Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Abandoned Sewers Trial. Level required 38+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 58 merits. Location: Atlas Park. LF7M."
+                }                
+                Menu "Tips" {
+                        Option "Generate Tip Macros" "macro TaskForceDoor say Once you enter the sewers, look right and take that door. That is the actual mission door.$$macro WeaponsCollection say We need to collect the glowies. One per player. You can give a weapon to another player if you get more than one. Flying is best here as it's easy to fall. Avoid the hatched krakens.$$macro HatchedKrakens say Watch out for the hatched krakens, they hit hard.$$macro Thermiteplasmagun say Thermite plasma gun does good damage to the Hydra tentacles, but not the head, so focus on the tentacles.$$macro Particleacceleratorgun say Particle accelerator only does damage to the head. It's a long slow attack, flying over the head is the safest spot.$$macro HydraHead say The generators need to be down at the same to expose the hydra head. Once, the head is shielded again the generators have to be destroyed again. Repeat.$$macro GeneratorRushStrategy say Stay together as a team, rush each generator, ignore the Rikti.$$macro GeneratorSpiltStrategy say Break into 2-3 groups and clear the generators as fast as possible.$$macro GeneratorOutOfSync say The generators are out of sync we need wait till they are all back up. Clear mobs till then.$$macro HeadoftheHydrabadge say Head of the Hydra badge is here. /thumbtack 15.0 -694.8 -0.5"
+                        Divider
+                        Option "Task Force Door" "beginchat Once you enter the sewers, look right and take that door. That is the actual mission door."
+                        Option "Weapons Collection" "beginchat We need to collect the glowies. One per player. You can give a weapon to another player if you get more than one. Flying is best here as it's easy to fall. Avoid the hatched krakens."
+                        Option "Hatched Krakens" "beginchat Watch out for the hatched krakens, they hit hard."
+                        Option "Thermite plasma gun" "beginchat Thermite plasma gun does good damage to the Hydra tentacles, but not the head, so focus on the tentacles."
+                        Option "Particle accelerator gun" "beginchat Particle accelerator only does damage to the head. It's a long slow attack, flying over the head is the safest spot."
+                        Option "Hydra Head" "beginchat The generators need to be down at the same to expose the hydra head. Once, the head is shielded again the generators have to be destroyed again. Repeat."
+                        Option "Generator Rush Strategy" "beginchat Stay together as a team, rush each generator, ignore the Rikti."
+                        Option "Generator Spilt Strategy" "beginchat Break into 2-3 groups and clear the generators as fast as possible."
+                        Option "Generator Out Of Sync" "beginchat The generators are out of sync we need wait till they are all back up. Clear mobs till then."
+                        Option "Head of the Hydra badge" "beginchat Head of the Hydra badge is here. /thumbtack 15.0 -694.8 -0.5"
+                }
+                }
+
+        Menu "Dr. Quarterfield: Explorers and Exploiters" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Dr. Quarterfield: Explorers and Exploiters. Level required 40+. This is a kill most, we will NOT speed objectives. Location: Firebase Zulu (via Tunnel, SG portal, or PI portal). 122 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Dr. Quarterfield: Explorers and Exploiters. Level required 40+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 244 merits. Location: Firebase Zulu (via Tunnel, SG portal, or PI portal). LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Dr. Quarterfield: Explorers and Exploiters. Level required 40+. Speed run, we will skip most mobs. Location: Firebase Zulu (via Tunnel, SG portal, or PI portal). 122 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Dr. Quarterfield: Explorers and Exploiters. Level required 40+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 244 merits. Location: Firebase Zulu (via Tunnel, SG portal, or PI portal). LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Sara Moore: The Legend of Ruladak"
-        {
-                Menu "LFG"
-                {
+        Menu "Sara Moore: The Legend of Ruladak" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Sara Moore: The Legend of Ruladak. Level required 40+. This is a kill most, we will NOT speed objectives. Location: Cascade Archipelago (via Tunnel or SG Portal). 63 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Sara Moore: The Legend of Ruladak. Level required 40+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 126 merits. Location: Cascade Archipelago (via Tunnel or SG Portal). LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Sara Moore: The Legend of Ruladak. Level required 40+. Speed run, we will skip most mobs. Location: Cascade Archipelago (via Tunnel or SG Portal). 63 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Sara Moore: The Legend of Ruladak. Level required 40+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 126 merits. Location: Cascade Archipelago (via Tunnel or SG Portal). LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Justine Augustine: The Saga of Faathim"
-        {
-                Menu "LFG"
-                {
+        Menu "Justine Augustine: The Saga of Faathim" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Justine Augustine: The Saga of Faathim. Level required 44+. This is a kill most, we will NOT speed objectives. Location: The Chantry (via Tunnel or SG Portal). 42 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Justine Augustine: The Saga of Faathim. Level required 44+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 84 merits. Location: The Chantry (via Tunnel or SG Portal). LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Justine Augustine: The Saga of Faathim. Level required 44+. Speed run, we will skip most mobs. Location: The Chantry (via Tunnel or SG Portal). 42 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Justine Augustine: The Saga of Faathim. Level required 44+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 84 merits. Location: The Chantry (via Tunnel or SG Portal). LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Faathim the Kind: The Saga of Lanaru"
-        {
-                Menu "LFG"
-                {
+        Menu "Faathim the Kind: The Saga of Lanaru" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Faathim the Kind: The Saga of Lanaru. Level required 44+. This is a kill most, we will NOT speed objectives. Location: The Chantry (via Tunnel or SG Portal). 73 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Faathim the Kind: The Saga of Lanaru. Level required 44+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 146 merits. Location: The Chantry (via Tunnel or SG Portal). LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Faathim the Kind: The Saga of Lanaru. Level required 44+. Speed run, we will skip most mobs. Location: The Chantry (via Tunnel or SG Portal). 73 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Faathim the Kind: The Saga of Lanaru. Level required 44+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 146 merits. Location: The Chantry (via Tunnel or SG Portal). LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Richard Flag: Terra Volta Respec #3"
-        {
-                Menu "LFG"
-                {
+        Menu "Richard Flag: Terra Volta Respec #3" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Richard Flag: Terra Volta Respec #3. Level required 44+. This is a kill most, we will NOT speed objectives. Location: Peregrine Island. 20 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Richard Flag: Terra Volta Respec #3. Level required 44+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Peregrine Island. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Richard Flag: Terra Volta Respec #3. Level required 44+. Speed run, we will skip most mobs. Location: Peregrine Island. 20 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Richard Flag: Terra Volta Respec #3. Level required 44+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Peregrine Island. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Ractespriel: Tree Respec #3"
-        {
-                Menu "LFG"
-                {
+        Menu "Ractespriel: Tree Respec #3" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Ractespriel: Tree Respec #3. Level required 44+. This is a kill most, we will NOT speed objectives. Location: Red side. Nerva Archipelago. 15 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Ractespriel: Tree Respec #3. Level required 44+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 30 merits. Location: Red side. Nerva Archipelago. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Ractespriel: Tree Respec #3. Level required 44+. Speed run, we will skip most mobs. Location: Red side. Nerva Archipelago. 15 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Ractespriel: Tree Respec #3. Level required 44+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 30 merits. Location: Red side. Nerva Archipelago. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Ms._Liberty_Task_Force"
-        {
-                Menu "LFG"
-                {
+        Menu "Ms._Liberty_Task_Force" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Ms._Liberty_Task_Force. Level required 45+. This is a kill most, we will NOT speed objectives. Location: Independence Port. 37 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Ms._Liberty_Task_Force. Level required 45+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 74 merits. Location: Independence Port. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Ms._Liberty_Task_Force. Level required 45+. Speed run, we will skip most mobs. Location: Independence Port. 37 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Ms._Liberty_Task_Force. Level required 45+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 74 merits. Location: Independence Port. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Dr. Khan: Return of the Reichsman"
-        {
-                Menu "LFG"
-                {
+        Menu "Dr. Khan: Return of the Reichsman" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Dr. Khan: Return of the Reichsman. Level required 45+. This is a kill most, we will NOT speed objectives. Location: Founder's Falls. 20 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Dr. Khan: Return of the Reichsman. Level required 45+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Founder's Falls. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Dr. Khan: Return of the Reichsman. Level required 45+. Speed run, we will skip most mobs. Location: Founder's Falls. 20 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Dr. Khan: Return of the Reichsman. Level required 45+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Founder's Falls. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Barracuda: Thus Spoke the Reichman"
-        {
-                Menu "LFG"
-                {
+        Menu "Barracuda: Thus Spoke the Reichman" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Barracuda: Thus Spoke the Reichman. Level required 45+. This is a kill most, we will NOT speed objectives. Location: Red side. Grandville. 20 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Barracuda: Thus Spoke the Reichman. Level required 45+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Red side. Grandville. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Barracuda: Thus Spoke the Reichman. Level required 45+. Speed run, we will skip most mobs. Location: Red side. Grandville. 20 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Barracuda: Thus Spoke the Reichman. Level required 45+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Red side. Grandville. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Lord Recluse's Strike Force"
-        {
-                Menu "LFG"
-                {
+        Menu "Lord Recluse's Strike Force" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Lord Recluse's Strike Force. Level required 45+. This is a kill most, we will NOT speed objectives. Location: Red side. Grandville. 25 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Lord Recluse's Strike Force. Level required 45+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 50 merits. Location: Red side. Grandville. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Lord Recluse's Strike Force. Level required 45+. Speed run, we will skip most mobs. Location: Red side. Grandville. 25 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Lord Recluse's Strike Force. Level required 45+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 50 merits. Location: Red side. Grandville. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Mender Silos: Trading Places"
-        {
-                Menu "LFG"
-                {
+        Menu "Mender Silos: Trading Places" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Mender Silos: Trading Places. Level required 46+. This is a kill most, we will NOT speed objectives. Location: Oroboros. 14 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Mender Silos: Trading Places. Level required 46+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 28 merits. Location: Oroboros. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Mender Silos: Trading Places. Level required 46+. Speed run, we will skip most mobs. Location: Oroboros. 14 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Mender Silos: Trading Places. Level required 46+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 28 merits. Location: Oroboros. LF7M."
-                }                
-        }
+                }                }
 
-        Menu "Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive"
-        {
-                Menu "LFG"
-                {
+        Menu "Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive" {
+                Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive. Level required 50+. This is a kill most, we will NOT speed objectives. Location: Rikti War Zone. 40 merits. LF7M."
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive. Level required 50+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 80 merits. Location: Rikti War Zone. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive. Level required 50+. Speed run, we will skip most mobs. Location: Rikti War Zone. 40 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Apex-Tin mage TFs: Alpha Strike and Praetorian Offensive. Level required 50+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 80 merits. Location: Rikti War Zone. LF7M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro Apex:RiktiPylons say We only need to defeat the three pylons. Watch out for the hydra heads. They do accurate massive toxic AOE damage.$$macro Apex:Lorepets say Summon your lore pets if you have them.$$macro Apex:BattleMaidenfight say Blue patches will fall from the sky, they do large amounts of untyped damage, avoid or you will die. Once, Battle Maiden retreats, focus on the humans, ignore the swords.$$macro ApexBadge:DroneProtectorBadge say Ensure no drones are defeated in the first mission.$$macro ApexBadge:BurdenBearerBadge say Ensure no drones are defeated or activated in the first mission.$$macro ApexBadge:AlreadyDeadBadge say Defeat Battle Maiden in under 15 minutes (Timer only counts when she is on the map).$$macro TinMage:EightWarWalkerstoDefeat say We only need to defeat the eight war walker bosses. Then enter the warehouse near the last two bosses.$$macro TinMage:DefeatDirector11 say Keep Director 11 taunted or immobilized. They like to run.$$macro TinMageBadge:Hacker say Click all 8 devices within 30 seconds of entering the warehouse in the first mission.$$macro TinMageBadge:MidnightDodgerWhatDodgesAtMidnightBadge say All teammates must avoid taking any damage from Proximity Bombs set by Director 11 during the first mission. High defense, flight, or just defeating the AV quickly work.$$macro TinMageBadge:Kitty'sGotClawsBadge say Defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat.$$macro TinMageBadge:ArmyofNeuBadge say Defeat 40 of Neuron's clones in one attempt. Separate the AVs, take Bobcat out first. No AOEs till we get the badge."
                         Divider
                         Option "Apex: Rikti Pylons" "beginchat We only need to defeat the three pylons. Watch out for the hydra heads. They do accurate massive toxic AOE damage."
@@ -518,8 +424,7 @@ Menu "TSTv1"
                         Option "Tin Mage Badge: Kitty's Got Claws Badge" "beginchat Defeat Neuron before Bobcat reaches 50% health, then defeat Bobcat."
                         Option "Tin Mage Badge: Army of Neu Badge" "beginchat Defeat 40 of Neuron's clones in one attempt. Separate the AVs, take Bobcat out first. No AOEs till we get the badge."
                 }
-                
-        }
+                }
         }
     }
     Menu "Incarnate trials, League events" {
@@ -531,8 +436,7 @@ Menu "TSTv1"
                         Option "Normal run" "beginchat /lfg Behavioral Adjustment Facility Trial (BAF) league is forming in Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D to get here. Requirements: level 50. Rewards: Incarnate Salvage, Empyrean Merits, Astral Merits. LF23M."
                         Option "Badge run" "beginchat /lfg Behavioral Adjustment Facility Trial (BAF) league is forming in Echo Plaza: Use Long range teleport, TUNNEL, or East Pavillion truck in Pocket D. Requirements, level 50. Rewards, Incarnate Salvage, Empyrean Merits, Astral Merits. LF23M."
                 }                
-                Menu "Tips"
-                {
+                Menu "Tips" {
                         Option "Generate Tip Macros" "macro AlarmRaiserBadge say Whether by chutzpah or ignorance, you managed to assault the Behavioral Adjustment Facility without ever disabling a single one of their guard towers. "
                         Divider
                         Option "Alarm Raiser Badge" "beginchat Whether by chutzpah or ignorance, you managed to assault the Behavioral Adjustment Facility without ever disabling a single one of their guard towers. "

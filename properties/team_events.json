@@ -302,6 +302,56 @@
         },
         {
             "type": "TeamEvent",
+            "name": "Abandoned Sewers Trial",
+            "level_requirement": 38,
+            "merits": 29,
+            "team_size": 8,
+            "location": "Atlas Park",
+            "tips": [
+                {
+                    "name": "Task Force Door",
+                    "content": "Once you enter the sewers, look right and take that door. That is the actual mission door."
+                },
+                {
+                    "name": "Weapons Collection",
+                    "content": "We need to collect the glowies. One per player. You can give a weapon to another player if you get more than one. Flying is best here as it's easy to fall. Avoid the hatched krakens."
+                },
+                {
+                    "name": "Hatched Krakens",
+                    "content": "Watch out for the hatched krakens, they hit hard."
+                },
+                {
+                    "name": "Thermite plasma gun",
+                    "content": "Thermite plasma gun does good damage to the Hydra tentacles, but not the head, so focus on the tentacles."
+                },
+                {
+                    "name": "Particle accelerator gun",
+                    "content": "Particle accelerator only does damage to the head. It's a long slow attack, flying over the head is the safest spot."
+                },
+                {
+                    "name": "Hydra Head",
+                    "content": "The generators need to be down at the same to expose the hydra head. Once, the head is shielded again the generators have to be destroyed again. Repeat."
+                },
+                {
+                    "name": "Generator Rush Strategy",
+                    "content": "Stay together as a team, rush each generator, ignore the Rikti."
+                },
+                {
+                    "name": "Generator Spilt Strategy",
+                    "content": "Break into 2-3 groups and clear the generators as fast as possible."
+                },
+                {
+                    "name": "Generator Out Of Sync",
+                    "content": "The generators are out of sync we need wait till they are all back up. Clear mobs till then."
+                },
+                {
+                    "name": "Head of the Hydra badge",
+                    "content": "Head of the Hydra badge is here. /thumbtack 15.0 -694.8 -0.5"
+                }
+            ]
+        },
+        {
+            "type": "TeamEvent",
             "name": "Dr. Quarterfield: Explorers and Exploiters",
             "level_requirement": 40,
             "merits": 122,

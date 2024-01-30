@@ -30,8 +30,7 @@
 // es in a safe location, so that crash-to-report-screen doesn’t mess up your alt’s day.
 // Most such crashes are caused by undefined actions (like a Menu with a null argument).
 // Most simple coding errors just mean the menu doesn’t work right.
-Menu "TSTv1"
-{
+Menu "TSTv1" {
     Title "Task Forces, Strikes Forces, and Trials LFG"
     Menu "Task Forces, Strike Forces, Trials" {
         Menu "Level 1-35" {

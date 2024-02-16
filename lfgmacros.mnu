@@ -329,6 +329,14 @@ Menu "TSTv1" {
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Sara Moore: The Legend of Ruladak. Level required 40+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 126 merits. Location: Cascade Archipelago (via Tunnel or SG Portal). LF7M."
                 }                }
 
+        Menu "Market Crash Trial" {
+                Menu "LFG" {
+                        Option "Kill most" "beginchat /lfg Kill most. Market Crash Trial. Level required 40+. This is a kill most, we will NOT speed objectives. Location: Kallisti Wharf. 20 merits. LF7M."
+                        Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Market Crash Trial. Level required 40+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Kallisti Wharf. LF7M."
+                        Option "Speed" "beginchat /lfg Speed run. Market Crash Trial. Level required 40+. Speed run, we will skip most mobs. Location: Kallisti Wharf. 20 merits. LF7M."
+                        Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Market Crash Trial. Level required 40+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Kallisti Wharf. LF7M."
+                }                }
+
         Menu "Justine Augustine: The Saga of Faathim" {
                 Menu "LFG" {
                         Option "Kill most" "beginchat /lfg Kill most. Justine Augustine: The Saga of Faathim. Level required 44+. This is a kill most, we will NOT speed objectives. Location: The Chantry (via Tunnel or SG Portal). 42 merits. LF7M."

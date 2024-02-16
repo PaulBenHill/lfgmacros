@@ -370,6 +370,15 @@
         },
         {
             "type": "TeamEvent",
+            "name": "Market Crash Trial",
+            "level_requirement": 40,
+            "merits": 20,
+            "team_size": 8,
+            "location": "Kallisti Wharf",
+            "tips": []
+        },
+        {
+            "type": "TeamEvent",
             "name": "Justine Augustine: The Saga of Faathim",
             "level_requirement": 44,
             "merits": 42,

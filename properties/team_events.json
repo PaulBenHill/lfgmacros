@@ -375,7 +375,36 @@
             "merits": 20,
             "team_size": 8,
             "location": "Kallisti Wharf",
-            "tips": []
+            "tips": [
+                {
+                    "name": "Super stunners",
+                    "content": "Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                },
+                {
+                    "name": "Super Sunner AV",
+                    "content": "The archvillian is a Super Sunner with a nasty AOE rez. Back away before he drops. But stay for the extra exp."
+                },
+                {
+                    "name": "Hostage",
+                    "content": "Check to see if you have the hostage, lead her back ASAP. Watch out for the ambush near the entrance."
+                },
+                {
+                    "name": "Herd to the Action House",
+                    "content": "Clear these front groups, then herd into the auction house."
+                },
+                {
+                    "name": "Hospital",
+                    "content": "Hospital is in the zone near the entrance. So, it's ok to use it."
+                },
+                {
+                    "name": "Hospital during AV fight",
+                    "content": "If you die during the robot AV fight, hospital, and jump down the cliff back into the fight."
+                },
+                {
+                    "name": "Generators",
+                    "content": "The AV has spawned force field generators. Follow the blue lines and destroy them. Otherwise, you are doing no damage to the AV."
+                }
+            ]
         },
         {
             "type": "TeamEvent",

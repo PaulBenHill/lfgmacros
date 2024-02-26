@@ -335,7 +335,19 @@ Menu "TSTv1" {
                         Option "Kill most - WST" "beginchat /lfg Kill most. Weekly Strike Target. Market Crash Trial. Level required 40+. This is a kill most, we will NOT speed objectives. If this is your first WST of the week, up to 40 merits. Location: Kallisti Wharf. LF7M."
                         Option "Speed" "beginchat /lfg Speed run. Market Crash Trial. Level required 40+. Speed run, we will skip most mobs. Location: Kallisti Wharf. 20 merits. LF7M."
                         Option "Speed - WST" "beginchat /lfg Speed run. Weekly Strike Target. Market Crash Trial. Level required 40+. Speed run, we will skip most mobs. If this is your first WST of the week, up to 40 merits. Location: Kallisti Wharf. LF7M."
-                }                }
+                }                
+                Menu "Tips" {
+                        Option "Generate Tip Macros" "macro Superstunners say Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid.$$macro SuperSunnerAV say The archvillian is a Super Sunner with a nasty AOE rez. Back away before he drops. But stay for the extra exp.$$macro Hostage say Check to see if you have the hostage, lead her back ASAP. Watch out for the ambush near the entrance.$$macro HerdtotheActionHouse say Clear these front groups, then herd into the auction house.$$macro Hospital say Hospital is in the zone near the entrance. So, it's ok to use it.$$macro HospitalduringAVfight say If you die during the robot AV fight, hospital, and jump down the cliff back into the fight.$$macro Generators say The AV has spawned force field generators. Follow the blue lines and destroy them. Otherwise, you are doing no damage to the AV."
+                        Divider
+                        Option "Super stunners" "beginchat Super Stunners, have a power called, Reserve Power, which is an autohit hp, end drain, and recovery debuff on defeat with a 25' radius. Kill at range to avoid."
+                        Option "Super Sunner AV" "beginchat The archvillian is a Super Sunner with a nasty AOE rez. Back away before he drops. But stay for the extra exp."
+                        Option "Hostage" "beginchat Check to see if you have the hostage, lead her back ASAP. Watch out for the ambush near the entrance."
+                        Option "Herd to the Action House" "beginchat Clear these front groups, then herd into the auction house."
+                        Option "Hospital" "beginchat Hospital is in the zone near the entrance. So, it's ok to use it."
+                        Option "Hospital during AV fight" "beginchat If you die during the robot AV fight, hospital, and jump down the cliff back into the fight."
+                        Option "Generators" "beginchat The AV has spawned force field generators. Follow the blue lines and destroy them. Otherwise, you are doing no damage to the AV."
+                }
+                }
 
         Menu "Justine Augustine: The Saga of Faathim" {
                 Menu "LFG" {

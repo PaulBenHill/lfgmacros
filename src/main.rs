@@ -65,7 +65,7 @@ impl GroupEvent {
         }
     }
     fn get_tips(&self) -> &Vec<Tip> {
-        let result = match self {
+        match self {
             GroupEvent::TeamEvent {
                 name: _,
                 level_requirement: _,
@@ -82,9 +82,7 @@ impl GroupEvent {
                 location: _,
                 tips,
             } => tips,
-        };
-
-        result
+        }
     }
 }
 
@@ -133,7 +131,6 @@ fn main() {
 
 fn load_json_data(properties_dir: &str, file_name: &str) -> Vec<GroupEvent> {
     let file_path = Path::new(".").join(properties_dir).join(file_name);
-
     read_data_file(file_path)
 }
 
